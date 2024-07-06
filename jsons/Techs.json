@@ -1,0 +1,397 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Ancient era",
+		"techCost": 20,
+		"buildingCost": 40,
+        "wonderCost": 50,
+		"techs": [
+			{
+				"name": "Halo Genesis",
+				"row": 5,
+				"quote": "",
+				"uniques": ["Starting tech"]
+			}
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "Ancient era",
+		"techCost": 40,
+		"buildingCost": 70,
+		"wonderCost": 105,
+		"techs": [
+			{
+				"name": "Gardening",
+				"cost": 30,
+				"row": 2,
+				"prerequisites": ["Halo Genesis"],
+				"quote": ""
+			},
+			{
+				"name": "Early Religion",
+				"row": 5,
+				"prerequisites": ["Halo Genesis"],
+				"quote": ""
+			},
+			{
+				"name": "Carbine Development",
+				"cost": 15,
+				"row": 7,
+				"prerequisites": ["Halo Genesis"],
+				"quote": ""
+			},
+			{
+				"name": "Mining Operation",
+				"row": 9,
+				"prerequisites": ["Halo Genesis"],
+				"quote": ""
+			},
+			
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Ancient era",
+		"techCost": 90,
+		"buildingCost": 90,
+		"wonderCost": 185,
+		"techs": [
+			{
+			
+				"name": "Hunting",
+				"cost": 60,
+				"row": 1,
+				"prerequisites": ["Gardening"],
+				"quote": "",
+				"uniques": ["Enables embarkation for land units"]
+			},
+			{
+			
+				"name": "Animal Husbandry",
+				"cost": 60,
+				"row": 2,
+				"prerequisites": ["Gardening"],
+				"quote": ""
+			},
+			{
+				"name": "Basic Education",
+				"row": 3,
+				"prerequisites": ["Gardening"],
+				"quote": ""
+			},
+			{
+				"name": "Weapon Training",
+				"cost": 25,
+				"row": 7,
+				"prerequisites": ["Carbine Development"],
+				"quote": ""
+			},
+			{
+				"name": "Construction",
+				"row": 10,
+				"prerequisites": ["Mining Operation"],
+				"quote": ""
+				"uniques": ["Enables Open Borders agreements", "Enables Research agreements"]
+			},
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Ancient era",
+		"techCost": 175,
+		"buildingCost": 125,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Surfing",
+				"cost": 115,
+				"row": 1,
+				"prerequisites": ["Hunting"],
+				"quote": ""
+			},
+			{
+				"name": "Culinary Arts",
+				"cost": 115,
+				"row": 2,
+				"prerequisites": ["Hunting", "Animal Husbandry"],
+				"quote": ""
+			},
+			{
+				"name": "School Philosophy",
+				"row": 5,
+				"prerequisites": ["Basic Education", "Early Religion"],
+				"quote": ""
+			},
+			{
+				"name": "Pyroxene",
+				"cost": 115,
+				"row": 9,
+				"prerequisites": ["Mining Operation"],
+				"quote": "",
+			},
+		]
+	},
+	{
+		"columnNumber": 4,
+		"era": "Warring Schools era",
+		"techCost": 175,
+		"buildingCost": 125,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Cooling",
+				"row": 3,
+				"prerequisites": ["Culinary Arts", "Basic Education"],
+				"quote": ""
+			},
+			{
+				"name": "Early AI Assistance",
+				"row": 4,
+				"prerequisites": ["Basic Education"],
+				"quote": ""
+			},
+			{
+				"name": "Barrel Development",
+				"cost": 115,
+				"row": 7,
+				"prerequisites": ["Weapon Training"],
+				"quote": "",
+			},
+			{
+				"name": "Explosives",
+				"cost": 115,
+				"row": 8,
+				"prerequisites": ["Weapon Training"],
+				"quote": "",
+			},
+			{
+				"name": "Workshop",
+				"cost": 115,
+				"row": 10,
+				"prerequisites": ["Construction"],
+				"quote": ""
+			},
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Warring Schools era",
+		"techCost": 375,
+		"buildingCost": 160,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "Diving",
+				"row": 1,
+				"prerequisites": ["Surfing"],
+				"uniques": ["[-30]% construction time for [Farm] improvements"],
+				"quote": ""
+			},
+			{
+				"name": "Maritime Trade",
+				"row": 2,
+				"prerequisites": ["Surfing"],
+				"uniques": ["[-30]% construction time for [Farm] improvements"],
+				"quote": ""
+			},
+			{
+				"name": "Theology",
+				"row": 5,
+				"prerequisites": ["School Philosophy"],
+				"uniques": ["Enables [Embarked] units to enter ocean tiles"],
+				"quote": ""
+			},
+			{
+				"name": "Skills Training",
+				"row": 8,
+				"prerequisites": ["Barrel Development", "Explosives"],
+				"quote": "",
+			},
+			{
+				"name": "Engineering",
+				"row": 10,
+				"prerequisites": ["Workshop"],
+				"quote": ""
+			},
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Warring Schools era",
+		"techCost": 485,
+		"buildingCost": 160,
+		"wonderCost": 400,
+		"techs": [
+			{
+				"name": "Coastal Force",
+				"row": 1,
+				"prerequisites": ["Diving"],
+				"quote": ""
+			},
+			{
+				"name": "Ruins Exploration",
+				"row": 4,
+				"prerequisites": ["Early AI Assistance", "Theology"],
+				"quote": ""
+			},
+			{
+				"name": "Advanced Education",
+				"row": 6,
+				"prerequisites": ["Theology"],
+				"quote": ""
+			},
+			{
+				"name": "Tactical Training",
+				"row": 8,
+				"prerequisites": ["Skills Training"],
+				"quote": ""
+			},
+			{
+				"name": "Physics",
+				"row": 10,
+				"prerequisites": ["Engineering"],
+				"quote": "",
+				"uniques": ["[+1] Range <for [Siege] units>"]
+			},
+		]
+	},
+	{
+		"columnNumber": 7,
+		"era": "Coalition era",
+		"techCost": 780,
+		"buildingCost": 200,
+		"wonderCost": 500,
+		"techs": [
+			{
+				"name": "Naval Force",
+				"row": 1,
+				"prerequisites": ["Coastal Force"],
+				"quote": ""
+			},
+			{
+				"name": "Business",
+				"row": 3,
+				"prerequisites": ["Cooling", "Maritime Trade"],
+				"quote": ""
+			},
+			{
+				"name": "Fine Arts",
+				"row": 6,
+				"prerequisites": ["Advanced Education"],
+				"quote": ""
+			},
+			{
+				"name": "Artillery Battery",
+				"row": 9,
+				"prerequisites": ["Tactical Training", "Pyroxene", "Physics"],
+				"quote": ""
+			},
+		]
+	},
+	{
+		"columnNumber": 8,
+		"era": "Coalition era",
+		"techCost": 1000,
+		"buildingCost": 300,
+		"wonderCost": 750,
+		"techs": [
+			{
+				"name": "Naval Force 2",
+				"row": 1,
+				"prerequisites": ["Naval Force"],
+				"quote": ""
+			},
+			{
+				"name": "Ruins Technology",
+				"row": 4,
+				"prerequisites": ["Ruins Exploration"],
+				"quote": ""
+			},
+			{
+				"name": "Architecture",
+				"row": 7,
+				"prerequisites": ["Artillery Battery", "Fine Arts"],
+				"quote": ""
+			}
+			{
+				"name": "Akari",
+				"row": 10,
+				"prerequisites": ["Physics"],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 9,
+		"era": "Coalition era",
+		"techCost": 1550,
+		"buildingCost": 200,
+		"wonderCost": 250,
+		"techs": [
+			{
+				"name": "Himari's Thighs",
+				"row": 1,
+				"prerequisites": ["Naval Force 2"],
+				"quote": ""
+			},
+			{
+				"name": "Himari's Feet",
+				"row": 2,
+				"prerequisites": ["Naval Force 2"],
+				"quote": ""
+			},
+			{
+				"name": "Aris Headpat",
+				"row": 4,
+				"prerequisites": ["Ruins Technology"],
+				"quote": ""
+			},
+			{
+				"name": "Aris Smile",
+				"row": 5,
+				"prerequisites": ["Ruins Technology"],
+				"quote": ""
+			},
+			{
+				"name": "Nozomi",
+				"row": 7,
+				"prerequisites": ["Architecture"],
+				"quote": ""
+			},
+			{
+				"name": "Noa",
+				"row": 9,
+				"prerequisites": ["Akari"],
+				"quote": ""
+			}
+			{
+				"name": "Nonomi",
+				"row": 10,
+				"prerequisites": ["Akari"],
+				"quote": ""
+			}
+		]
+	},
+	{
+		"columnNumber": 10,
+		"era": "Modernization era",
+		"techCost": 1900,
+		"buildingCost": 200,
+		"wonderCost": 300,
+		"techs": [
+			{
+				"name": "Economics",
+				"row": 3,
+				"prerequisites": ["Business"],
+				"quote": ""
+			}
+			{
+				"name": "Hikari",
+				"row": 7,
+				"prerequisites": ["Nozomi"],
+				"quote": "",
+			}
+		]
+	},
+]
